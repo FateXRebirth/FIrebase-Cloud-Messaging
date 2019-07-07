@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>FCM Demo</title>
+</head>
+<body>
+    <img src="logo.png" alt="logo">
+    <h1>Firebase Cloud Messaging Demo</h1>
+    <section>
+        <span>Token&nbsp;(Required)</span><input type="text" id="Token">
+    </section>
+    <section>
+        <span>Topic&nbsp;(Optional)</span><input type="text" id="Topic">
+    </section>
+    <section>
+        <button id="Subscribe">Subscribe</button>
+        <button id="Unsubscribe">Unsubscribe</button>
+    </section>
+    <section>
+        <span>Message</span><input type="text" id="Message">
+    </section>
+    <section>
+        <span>Notification</span><input type="text" id="Notice">
+    </section>
+    <section>
+        <button id="Submit">Submit</button>
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-messaging.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

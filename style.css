@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  max-width: 600px;
+}
+section {
+  margin: 10px 0px;
+  max-width: 300px; 
+}
+
+input {
+  width: 300px;
+  height: 30px;
+}
+
+button {
+  width: 125px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0px 10px;
+  font-size: 15px;
+}
+
+
+
